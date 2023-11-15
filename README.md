@@ -1,5 +1,5 @@
 # Spiral-Paper-1
-Material for the paper "Extraction and Reduction of Parameters from Paper Drawn Archimedes Spirals for Clinical Tremor Assessment "
+Repository for the paper "Extraction and Reduction of Parameters from Paper Drawn Archimedes Spirals for Clinical Tremor Assessment "
 
 Images of the 18 hand-drawn spirals mentioned in the paper, S1-S18, are included in this repository.
 
