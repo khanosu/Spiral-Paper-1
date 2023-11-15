@@ -1,0 +1,53 @@
+
+STEP 1 -- Read Spiral Image file
+input image filename: S6.png
+
+y: data1.shape[0] = 1414
+x: data1.shape[1] = 1498
+   data1.shape[2] = 3
+
+y: data.shape[0] = 1414
+x: data.shape[1] = 1498
+   data.shape[2] = 3
+
+
+STEP 2 -- Determine the equation of the spiral by fitting to image data
+--- Select the center by clicking on it ---
+1: 656.6818181818182, 822.8030303030305
+2: 683.7410827020201, 776.1931715695921
+
+--- Select two points (one in zone 1 and the other in zone 2) on the spiral by clicking on the points ---
+1: 601.8740488586305, 625.6838205847017
+2: 870.8568281938327, 1288.0286343612336
+t_rr = 0.17536250721946356 radians --- 10.047531548507692 degrees
+bb = 39.03195567302217
+
+--- Close this window and wait for the next window ... It will take about 40 sec. (in Python 3.11) ...
+... for the next window to appear ---
+
+STEP 3 -- Use the spiral equation ot flatten the Spiral Image
+
+... It will take about 40 sec. (in Python 3.11) for the next window to appear ...
+--- Select the end-point of the longest flattened spiral in the image ---
+1: 2860.833600320384, 888.0519766577036
+max_x_pixels: 2860
+
+--- Select two points on the graph to define a rectangle. Only data inside this rectangle will be kept ---
+1: 844.1278391212309, 983.8812575090108
+2: 2903.7422335373867, 766.4775158761943
+
+STEP 4 -- Crop to include pixels of a single stitched patient’s hand-drawing
+current_max_x_pixels: 2903
+offset_x_pixels: 844
+
+--- Select two points on the graph to define a rectangle. Picture data inside this rectangle will be converted to a discrete signal. ... ---
+1: 341.875960061444, 211.64582181259607
+2: 2009.4761904761908, 8.434224270353297
+
+STEP 5 -- Derive the discrete signal and save it to Pandas data frames
+current_max_x_pixels: 2853
+offset_x_pixels: 1185
+
+cropping_ratio: 0.8234368428774023
+
+--- 'discrete signal' has been saved as S6_disc_signal.csv ---

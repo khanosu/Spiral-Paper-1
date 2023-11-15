@@ -1,0 +1,32 @@
+
+STEP 1 -- Read Discrete Signal and apply LP Filter
+input_filename = S6_disc_signal
+log_filename = S6_disc_signal_fft_log
+
+Spatial Sampling Rate: 1 sample/pixel
+Spatial Nyquest freq: 0.5 samples/pixel
+Spatial cutoff freq: 0.2 samples/pixel
+Spatial_cutoff_freq/spatial_nyquest_freq: 0.4
+
+Signal rms before normalization: 35.27 pixel values
+
+STEP 2 -- Determine FFT
+Number of sample points: N = 1000
+Number of coefficients in the transform, N/2 + 1: 501
+
+Time it took the patient to draw the whole spiral: 11.70 sec
+Time it took the patient to draw the cropped part of the spiral: 9.63 sec
+Sampling Rate: 103.80 Hz
+Nyquest Frequency: 51.90 Hz
+Low pass filter cutoff in Hz: 20.76 Hz
+
+Number of coefficients in the LP band: 200
+
+STEP 3 -- Truncate FFT and calculate Trunction Error
+Number of coefficients in the transform after truncation: 150
+Truncation Error: 12.46%
+
+STEP 4 -- Save Coefficients
+Truncated spectrum has been saved as S6_disc_signal_trunc_spectrum.csv
+Transpose of truncated spectrum as features has been saved as S6_disc_signal_trunc_spectrum_feaatures.csv
+
