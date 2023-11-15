@@ -1,4 +1,0 @@
-
-STEP 1 -- Read Discrete Signal and apply LP Filter
-input_filename = S2_flattened_disc_signal
-log_filename = S2_flattened_disc_signal_fft_log
