@@ -7,4 +7,4 @@ Data derived from the 18 hand-drawn spirals is tabulted in the document, calcula
 
 The scripts used for the paper are included in the folder, paper_software
 
-A user guide for the scripts is included as a pdf file, user_guide.pdf (coming soon ...)
+A user guide for the scripts is included as a pdf file, user_guide.pdf 
